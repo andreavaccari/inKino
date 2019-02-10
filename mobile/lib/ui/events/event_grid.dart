@@ -46,7 +46,7 @@ class _Content extends StatelessWidget {
   void _openEventDetails(BuildContext context, Event event) {
     Navigator.push(
       context,
-      MaterialPageRoute(
+      MaterialPageRoute<void>(
         builder: (_) => EventDetailsPage(event),
       ),
     );

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:inkino/ui/theater_list/theater_list.dart';
 
-class TheaterSelectorPopup extends PopupRoute {
+class TheaterSelectorPopup extends PopupRoute<void> {
   final opacityTween = Tween(begin: 0.0, end: 1.0);
   final positionTween = Tween(
     begin: const Offset(0.0, -1.0),

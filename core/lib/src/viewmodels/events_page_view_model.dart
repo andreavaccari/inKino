@@ -16,7 +16,7 @@ class EventsPageViewModel {
 
   final LoadingStatus status;
   final KtList<Event> events;
-  final Function refreshEvents;
+  final void Function() refreshEvents;
 
   static EventsPageViewModel fromStore(
     Store<AppState> store,

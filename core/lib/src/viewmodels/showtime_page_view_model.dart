@@ -22,7 +22,7 @@ class ShowtimesPageViewModel {
   final DateTime selectedDate;
   final KtList<Show> shows;
   final Function(DateTime) changeCurrentDate;
-  final Function refreshShowtimes;
+  final void Function() refreshShowtimes;
 
   static ShowtimesPageViewModel fromStore(Store<AppState> store) {
     return ShowtimesPageViewModel(
