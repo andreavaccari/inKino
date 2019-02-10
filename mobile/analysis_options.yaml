@@ -1,7 +1,6 @@
-analyzer:
-  language:
-    enableSuperMixins: true
+include: package:pedantic/analysis_options.yaml
 
-linter:
-  rules:
-    - prefer_const_constructors
+analyzer:
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false

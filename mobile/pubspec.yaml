@@ -20,11 +20,12 @@ dev_dependencies:
     sdk: flutter
   mockito: ^3.0.0
   image_test_utils: ^1.0.0
+  pedantic: ^1.0.0
 
 flutter:
   uses-material-design: true
   assets:
-  - assets/images/1x1_transparent.png
-  - assets/images/powered_by_tmdb.png
-  - assets/images/background_image.jpg
-  - assets/images/logo.png
+    - assets/images/1x1_transparent.png
+    - assets/images/powered_by_tmdb.png
+    - assets/images/background_image.jpg
+    - assets/images/logo.png
