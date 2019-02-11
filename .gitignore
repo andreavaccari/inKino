@@ -14,7 +14,7 @@ pubspec.lock
 Podfile
 Podfile.lock
 Pods/
-.symlinks/
+**/.symlinks/
 **/Flutter/App.framework/
 **/Flutter/Flutter.framework/
 **/Flutter/Generated.xcconfig
